@@ -6,5 +6,5 @@ variable "zone" {
 }
 variable "ssh_public_key_path" {
   description = "Путь до публичного SSH-ключа"
-  default     = "~/.ssh/id_rsa.pub"
+  default     = "~/.ssh/id_ed25519"
 }
